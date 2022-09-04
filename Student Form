@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="http://login2explore.com/jpdb/resources/js/jpdb-commons.js"></script>
+    </head>
+    <body>
+        <form id="RegisterForm" method="post"
+data-connection-token="90937356|-31949298315997614|90941668"
+data-db-name="MyDatabase"
+data-table-name="MyUsers"
+data-success-msg="Thanks for Registering"
+data-error-msg="Data NOT submited."
+onsubmit="return insertFormData2JPDB(this.id);">
+            
+            <div class="container">
+                <h1>Register</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+
+                <label for="name"><b>Full Name</b></label>
+                <input type="text" placeholder="Enter Full Name" name="name" required>
+                <br><br>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+                <br><br>
+
+                <label for="mobile"><b>Mobile</b></label>
+                <input type="number" placeholder="Enter Mobile" name="mobile">
+                <br><br>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br><br>
+
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </body>
+</html>
+</html>
